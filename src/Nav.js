@@ -4,12 +4,12 @@ import { NavLink } from 'react-router-dom'
 const Nav = () => {
 
     return (
-        <ul class="nav nav-pills">
-            <li class="active">
-                <NavLink to="/users" activeClassName={"active"}>Users</NavLink>
+        <ul className="nav nav-pills">
+            <li className="nav-item">
+                <NavLink to="/users" className="nav-link" activeClassName="nav-link active">Users</NavLink>
             </li>
-            <li>
-                <NavLink to="/things" activeClassName={"active"}>Things</NavLink>
+            <li className="nav-item">
+                <NavLink to="/things" className="nav-link" activeClassName="nav-link active">Things</NavLink>
             </li>
         </ul>
     );
